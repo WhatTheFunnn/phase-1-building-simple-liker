@@ -1,10 +1,18 @@
-// Defining text characters for the empty and full hearts for you to use later.
-const EMPTY_HEART = '♡'
-const FULL_HEART = '♥'
+const EMPTY_HEART = '♡';
+const FULL_HEART = '♥';
 
-// Your JavaScript code goes here!
+var like = document.getElementsByClassName("like", "like-glyph").addEventListener("click", likes);
 
+function likes() {
+  like.alert("hello");
+}
 
+/*function msc (mimicServerCall) {
+  debugger;  
+  return mimicServerCall
+  .then(() => {})
+  .catch(() => {})
+}*/
 
 
 //------------------------------------------------------------------------------
