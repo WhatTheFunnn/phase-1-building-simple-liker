@@ -3,15 +3,11 @@ const FULL_HEART = "♥";
 
 var likes = document.getElementsByClassName("like-glyph");
 for (let i = 0; i < likes.length; i++) {
-  likes[i].addEventListener("click", function (mimicServerCall) {
+  likes[i].addEventListener("click", function () {
     //alert("Success")
-    mimicServerCall = () => {
-      const myPromise = new promise((resolve, reject) => {
-        myPromise
-          .then(handleResolvedA, handleRejectedA)
-          .catch(handleRejectedAny);
-      });
-    };
+    mimicServerCall ()
+    .then(function(value) {yes})
+    .catch(function(error) {no})
   });
 }
 
